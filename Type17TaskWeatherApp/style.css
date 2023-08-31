@@ -1,0 +1,62 @@
+body {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  
+}
+#output-wrap {
+  position: relative;
+  margin: 30px auto;
+  width: 600px;
+
+}
+
+.output-inner {
+  border: 2px solid aliceblue;
+  margin: 2rem;
+  position: relative;
+}
+
+.temp {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: rgb(221, 221, 221);
+  display: flex;
+  color: #444;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  
+}
+.raining {
+  background-color: black;
+  color: #fff;
+}
+
+.sun {
+  background-color: antiquewhite;
+  
+}
+
+.fa-circle-xmark {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  cursor: pointer;
+  
+}
+.d-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
